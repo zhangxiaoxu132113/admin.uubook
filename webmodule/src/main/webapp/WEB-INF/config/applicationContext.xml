@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- 1、注解的自动扫描，表示组件（如：@controler，@Service，@Repository，@Resource等）的扫描 -->
+    <context:component-scan base-package="com.water.*"></context:component-scan>
+    <!-- redis cache -->
+    <bean id="jedisPool" class="com.water.admin.utils.cache.ShardedJedisPoolFactory">
+        <property name="hostAndPorts" value="127.0.0.1:6379"/>
+    </bean>
+    <bean id="cacheManager" class="com.water.admin.utils.cache.RedisCacheManagerImpl">
+        <constructor-arg ref="jedisPool"></constructor-arg>
+    </bean>
+    <!--<import resource="classpath:orm/spring-mybatis.xml"/>-->
+    <!--<import resource="classpath:spring/spring-beans-dao.xml"/>-->
+    <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
+    <!--<import resource="classpath:spring-dubbo-consumer.xml"/>-->
+</beans>

@@ -17,8 +17,52 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.water</groupId>
+            <artifactId>model</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <active.profile>dev</active.profile>
+            </properties>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <active.profile>test</active.profile>
+            </properties>
+        </profile>
+        <profile>
+            <id>product</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <active.profile>product</active.profile>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
-        <finalName>webmodule</finalName>
+        <filters>
+            <filter>../config_filters/${active.profile}/config-${active.profile}.properties</filter>
+        </filters>
+        <resources>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.json</include>
+                </includes>
+            </resource>
+        </resources>
+        <finalName>water-socialApp-webModule</finalName>
     </build>
 </project>

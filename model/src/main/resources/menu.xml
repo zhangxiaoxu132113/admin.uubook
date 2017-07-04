@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+    <category>
+        <id>1</id>
+        <name>技术博文</name>
+        <sort>1</sort>
+    </category>
+    <category>
+        <id>2</id>
+        <name>IT资讯</name>
+        <sort>2</sort>
+        <categories>
+            <category>
+                <id>21</id>
+                <name>热门头条</name>
+                <sort>1</sort>
+            </category>
+            <category>
+                <id>22</id>
+                <name>软件资讯</name>
+                <sort>2</sort>
+            </category>
+            <category>
+                <id>23</id>
+                <name>IT行业</name>
+                <sort>3</sort>
+            </category>
+        </categories>
+    </category>
+    <category>
+        <id>3</id>
+        <name>IT教程</name>
+        <sort>3</sort>
+    </category>
+    <category>
+        <id>4</id>
+        <name>知识库</name>
+        <sort>4</sort>
+    </category>
+
+</categories>
