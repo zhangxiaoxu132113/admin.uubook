@@ -1,13 +1,741 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4495396-d29e-466a-948d-010e264d8af8" name="Default" comment="" />
+    <list default="true" id="d4495396-d29e-466a-948d-010e264d8af8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/101.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/102.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/103.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/104.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/105.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/106.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/1_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/1_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/201.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/202.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/203.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/204.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/205.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/206.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/207.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/208.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/209.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/210.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/72.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/73.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/74.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/75.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/76.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/77.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/78.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/79.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/80.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/82.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/83.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/84.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/85.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/86.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/87.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/88.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/89.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/diy/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/91.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/92.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/93.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/94.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/95.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/96.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/97.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/98.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/QQ/99.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/blue/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/default/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/green/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/orange/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/red/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/yellow/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/face/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/ucnter/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/acrossTab/acrossTab-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/blue/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/default/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/green/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/orange/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/red/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/yellow/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/acrossTab/acrossTab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/acrossTab/acrossTab-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/blue/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/default/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/green/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/orange/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/red/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/yellow/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/acrossTab/acrossTab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/admin-login-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/admin-loginform-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/apiMenu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/apiMenu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/ucnter/avatar-default-S.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/ucnter/avatar-default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/ucnter/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/whyGreen/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/chinese.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/cn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/contact-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/datePicker.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/Hui-tags/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/english.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/expressInstall.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/dropDown/icon-jt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/blue/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/default/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/green/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/orange/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/red/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/yellow/icon_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/jselect/iconpic-arrow-down2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iconpic-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/validform/iconpic-error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/validform/iconpic-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/star/iconpic-star-S-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/star/iconpic-star-S.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/validform/iconpic-warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/default/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/twoer/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/whyGreen/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/twoer/img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/license.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/line_conn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/metroStyle/img/line_conn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/loading/loading-b.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/loading/loading-s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/metroStyle/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/metroStyle/img/metro.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/metroStyle/img/metro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/ucnter/noavatar_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/overlay_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/overlay_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/overlay_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/overlay_close_IE6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/dataTable/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/dataTable/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/dataTable/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/steps/step_arrow-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/steps/step_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/steps/step_bg-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/steps/step_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tabNav_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/verticalTab/tab_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/images/um.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/rollpic/unslider-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/images/iCheck/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/zTreeStandard.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/zTreeStandard.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/img/zTreeStandard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/img/zTreeStandard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/API_cn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/API_en.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/CrawlerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/DD_belatedPNG_0.0.8a-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/css/H-ui.admin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/js/H-ui.admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/css/H-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/css/H-ui.ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/js/H-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/css/H-ui.login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/css/H-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/js/H-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui/css/H-ui.reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/ueditor/1.4.3/jsp/src/com/baidu/ueditor/define/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/WdatePicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/WdatePicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/accessibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/accessibility.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/dialog/addTask.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.validation/1.14.0/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/boost.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/boost.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/broken-axis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/broken-axis.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/common.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/common_ie6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/dark-unica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/twoer/datepicker-dev.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/default/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/twoer/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/skin/whyGreen/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/js/de_DE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/echarts/3.4.0/echarts.common.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/fn.zTree._z.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/fn.zTree._z.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/fn.zTree.destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/fn.zTree.destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/fn.zTree.getZTreeObj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/fn.zTree.getZTreeObj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/fn.zTree.init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/fn.zTree.init.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/gantt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/gantt.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/grid-axis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/grid-axis.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/grid-light.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/highcharts-3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/home.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/setting/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/jquery-1.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.SuperSlide/2.1.1/jquery.SuperSlide.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.contextmenu/jquery.contextmenu.r2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/datatables/1.10.0/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery/1.9.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery/1.9.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.validation/1.14.0/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.all-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/jquery.ztree.core-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.core-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.core-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.excheck-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.excheck-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.exedit-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.exedit-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.exedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.exhide-3.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/js/jquery.ztree.exhide-3.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jselect-1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/skin/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/layer/2.4/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/laypage/1.2/skin/laypage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/laypage/1.2/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox-plus-jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/css/lightbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/lightbox2/2.8.1/js/lightbox.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.validation/1.14.0/messages_zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/metroStyle/metroStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/nprogress/0.2.0/nprogress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/nprogress/0.2.0/nprogress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/nprogress/0.2.0/nprogress.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/nprogress/0.2.0/nprogress.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/offline-exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/offline-exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/overlapping-datalabels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/overlapping-datalabels.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/sand-signika.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/series-label.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/series-label.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.autoParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.autoParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.contentType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.contentType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.dataFilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.dataFilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.dataType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.dataType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.otherParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.otherParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.async.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.async.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeAsync.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeAsync.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeCollapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeCollapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeDblClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeDblClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeDrag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeDrag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeDragOpen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeDragOpen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeDrop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeDrop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeEditName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeEditName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeMouseDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeMouseDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeMouseUp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeMouseUp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeRemove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeRemove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeRename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeRename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.beforeRightClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.beforeRightClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onAsyncError.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onAsyncError.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onAsyncSuccess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onAsyncSuccess.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onCollapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onCollapse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onDblClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onDblClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onDrag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onDrag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onDragMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onDragMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onDrop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onDrop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onMouseDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onMouseDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onMouseUp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onMouseUp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onNodeCreated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onNodeCreated.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onRemove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onRemove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onRename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onRename.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.callback.onRightClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.callback.onRightClick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.autoCheckTrigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.autoCheckTrigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.chkDisabledInherit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.chkDisabledInherit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.chkStyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.chkStyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.chkboxType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.chkboxType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.nocheckInherit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.nocheckInherit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.check.radioType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.check.radioType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.keep.leaf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.keep.leaf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.keep.parent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.keep.parent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.key.checked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.key.checked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.key.children.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.key.children.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.key.name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.key.name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.key.title.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.key.title.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.key.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.key.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.simpleData.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.simpleData.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.simpleData.idKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.simpleData.idKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.simpleData.pIdKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.simpleData.pIdKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.data.simpleData.rootPId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.data.simpleData.rootPId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.autoExpandTrigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.autoExpandTrigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.autoOpenTime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.autoOpenTime.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.borderMax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.borderMax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.borderMin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.borderMin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.inner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.inner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.isCopy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.isCopy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.isMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.isMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.maxShowNodeNum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.maxShowNodeNum.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.minMoveSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.minMoveSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.next.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.next.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.drag.prev.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.drag.prev.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.editNameSelectAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.editNameSelectAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.enable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.removeTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.removeTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.renameTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.renameTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.showRemoveBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.showRemoveBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.edit.showRenameBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.edit.showRenameBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.treeId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.treeId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.treeObj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.treeObj.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.addDiyDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.addDiyDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.addHoverDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.addHoverDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.autoCancelSelected.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.autoCancelSelected.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.dblClickExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.dblClickExpand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.expandSpeed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.expandSpeed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.fontCss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.fontCss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.nameIsHTML.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.nameIsHTML.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.removeHoverDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.removeHoverDom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.selectedMulti.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.selectedMulti.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.showIcon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.showIcon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.showLine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.showLine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.showTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.showTitle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/setting.view.txtSelectedEnable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/setting.view.txtSelectedEnable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/blue/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/default/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/green/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/orange/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/red/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/skin/yellow/skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/solid-gauge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/solid-gauge.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/squid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/static/h-ui.admin/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.check_Child_State.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.check_Child_State.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.check_Focus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.check_Focus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.checked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.checked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.checkedOld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.checkedOld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.children.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.children.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.chkDisabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.chkDisabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.diy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.diy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.editNameFlag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.editNameFlag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.getCheckStatus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.getCheckStatus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.getNextNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.getNextNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.getParentNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.getParentNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.getPreNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.getPreNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.halfCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.halfCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.iconClose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.iconClose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.iconOpen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.iconOpen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.iconSkin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.iconSkin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isAjaxing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isAjaxing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isFirstNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isFirstNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isHidden.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isHidden.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isHover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isHover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isLastNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isLastNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.isParent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.isParent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.level.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.level.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.nocheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.nocheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.open.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.open.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.parentTId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.parentTId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.tId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.tId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.target.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.target.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.url.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/treeNode.zAsync.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/treeNode.zAsync.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/treemap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/jquery.validation/1.14.0/validate-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/xrange-series.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/hcharts/Highcharts/5.0.6/js/modules/xrange-series.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.addNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.addNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.cancelEditName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.cancelEditName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.cancelSelectedNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.cancelSelectedNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.checkAllNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.checkAllNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.checkNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.checkNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.copyNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.copyNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.editName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.editName.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.expandAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.expandAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.expandNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.expandNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getChangeCheckedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getChangeCheckedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getCheckedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getCheckedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodeByParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodeByParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodeByTId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodeByTId.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodeIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodeIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodesByFilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodesByFilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodesByParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodesByParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getNodesByParamFuzzy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getNodesByParamFuzzy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.getSelectedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.getSelectedNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.hideNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.hideNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.hideNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.hideNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.moveNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.moveNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.reAsyncChildNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.reAsyncChildNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.refresh.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.refresh.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.removeChildNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.removeChildNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.removeNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.removeNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.selectNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.selectNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.setChkDisabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.setChkDisabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.setEditable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.setEditable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.showNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.showNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.showNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.showNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.transformToArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.transformToArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.transformTozTreeNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.transformTozTreeNodes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/cn/zTreeObj.updateNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/en/zTreeObj.updateNode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/zTree/v3/api/apiCss/zTreeStyleForApi.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/lib/My97DatePicker/4.8/lang/zh-tw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp" afterPath="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/model.iml" afterPath="$PROJECT_DIR$/model/model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webmodule/webmodule.iml" afterPath="$PROJECT_DIR$/webmodule/webmodule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webmodule_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webmodule_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/webmodule_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webmodule_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="admin.uubook.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/model/target/" />
     <ignored path="$PROJECT_DIR$/webmodule/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,18 +769,70 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5922">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmodule/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4752">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/CrawlerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="630">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/ViewDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="468">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1476">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTask.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/dialog/addTask.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43508288" vertical-offset="63" max-vertical-offset="810">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -60,16 +840,40 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/webmodule/pom.xml" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler.setting/index.jsp" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/index.jsp" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/common.jsp" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp" />
+        <option value="$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/CrawlerController.java" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/home.jsp" />
+        <option value="$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/dialog/addTask.jsp" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -101,7 +905,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,10 +958,305 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmodule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin.uubook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,8 +1268,19 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\personal\github\admin.uubook\admin.uubook\webmodule\src\main\webapp\lib" />
+      <recent name="E:\personal\github\admin.uubook\admin.uubook\webmodule\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\personal\github\admin.uubook\admin.uubook\webmodule\src\main\webapp\WEB-INF\page\crawler\setting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.uubook.admin">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -219,6 +1328,17 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -348,6 +1468,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
@@ -557,9 +1682,96 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="uubook.admin" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="webmodule:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_admin_uubook" />
+        <option name="HTTP_PORT" value="9090" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56949" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webmodule:war exploded" />
+        </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="webmodule:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.uubook.admin" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d4495396-d29e-466a-948d-010e264d8af8" name="Default" comment="" />
@@ -567,45 +1779,47 @@
       <option name="number" value="Default" />
       <updated>1492415597085</updated>
       <workItem from="1492415599092" duration="451000" />
+      <workItem from="1499311210690" duration="8222000" />
+      <workItem from="1499333707659" duration="54000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451000" />
+    <option name="totallyTimeSpent" value="8727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1394" height="912" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42820513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -628,7 +1842,101 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5922">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4752">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/CrawlerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="630">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/ViewDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="468">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1476">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/dialog/addTask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5922">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -649,6 +1957,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/lib/DD_belatedPNG_0.0.8a-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/lib/Hui-iconfont/1.0.8/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6012">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/ViewDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="468">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/setting/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="467">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4752">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/water/admin/db/controller/CrawlerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="1476">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmodule/src/main/webapp/WEB-INF/page/crawler/task/dialog/addTask.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43508288" vertical-offset="63" max-vertical-offset="810">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
