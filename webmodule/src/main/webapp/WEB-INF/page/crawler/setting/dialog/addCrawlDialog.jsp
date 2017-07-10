@@ -148,8 +148,14 @@
         $scope.crawlRule.module[0] = {};
         $scope.crawlRule.module[0].ruleList = [];
 
+
         $scope.saveCrawler = function () {
-            console.log("haha");
+            //处理样式规则，分组
+            angular.forEach($scope.crawlRule.module[0].ruleList, function(data,index,array){
+                var rules =  data.rule.split(",");
+                console.log(rules);
+                data.rule = rules;
+            });
             console.log($scope.crawlRule);
             $http({
                 method:"POST",
