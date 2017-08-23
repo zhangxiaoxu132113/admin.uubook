@@ -82,12 +82,13 @@
             </dd>
         </dl>
         <dl id="menu-product">
-            <dt><i class="Hui-iconfont">&#xe620;</i> 产品管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt><i class="Hui-iconfont">&#xe620;</i> 版块管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a data-href="product-brand.html" data-title="品牌管理" href="javascript:void(0)">品牌管理</a></li>
-                    <li><a data-href="product-category.html" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
-                    <li><a data-href="product-list.html" data-title="产品管理" href="javascript:void(0)">产品管理</a></li>
+                    <li><a data-href="<%=path%>/blog/home" data-title="文档模块" href="javascript:void(0)">文档模块</a></li>
+                    <li><a data-href="<%=path%>/news/home" data-title="资讯模块" href="javascript:void(0)">资讯模块</a></li>
+                    <li><a data-href="<%=path%>/course/home" data-title="教程模块" href="javascript:void(0)">教程模块</a></li>
+                    <li><a data-href="<%=path%>/base/home" data-title="知识库模块" href="javascript:void(0)">知识库模块</a></li>
                 </ul>
             </dd>
         </dl>

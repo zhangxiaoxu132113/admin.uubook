@@ -40,6 +40,7 @@
         <th width="80">任务数量</th>
         <th width="120">创建时间</th>
         <th width="75">完成时间</th>
+        <th width="120">状态</th>
         <th width="120">操作</th>
       </tr>
       </thead>

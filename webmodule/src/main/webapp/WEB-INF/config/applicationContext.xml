@@ -16,7 +16,7 @@
     <bean id="cacheManager" class="com.water.admin.utils.cache.RedisCacheManagerImpl">
         <constructor-arg ref="jedisPool"></constructor-arg>
     </bean>
-    <!--<import resource="classpath:orm/spring-mybatis.xml"/>-->
+    <import resource="classpath:spring-mybatis.xml"/>
     <!--<import resource="classpath:spring/spring-beans-dao.xml"/>-->
     <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
     <!--<import resource="classpath:spring-dubbo-consumer.xml"/>-->
