@@ -40,23 +40,7 @@ public class BlogController {
         return mav;
     }
 
-    @RequestMapping(value = "/getArticleByPage")
-    public TableDataResponse getArticleByPage(ArticleDto model,
-                                              @RequestParam(defaultValue = "1") int draw,
-                                              @RequestParam(defaultValue = "1") int currentPage,
-                                              @RequestParam(defaultValue = "10") int pageSize) {
-        TableDataResponse response = new TableDataResponse();
-        model.setModule(0);
-        String[] cols = new String[]{"id", "title", "viewHits","picUrl", "enable", "createOn", "category"};
-        List<ArticleDto> articleDtoList = articleService.findArticleListByCondition(model, cols, currentPage, pageSize);
-        int total = articleService.countArticleTotal(model);
 
-        response.setDraw(draw);
-        response.setiTotalRecords(total);
-        response.setiTotalDisplayRecords(total);
-        response.setAaData(articleDtoList);
-        return response;
-    }
 
 
 }

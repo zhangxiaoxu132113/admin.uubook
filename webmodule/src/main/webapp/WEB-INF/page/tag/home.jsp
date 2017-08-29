@@ -35,7 +35,7 @@
         }
     </style>
 </head>
-<jsp:include page="../../common.jsp"/>
+<jsp:include page="../common.jsp"/>
 <body>
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 版块管理 <span
         class="c-gray en">&gt;</span> 文档模块 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
@@ -45,20 +45,12 @@
     <div class="mt-20">
         <div id="search-from">
             <div class="row">
-                <span class="from-item"><label>ID : </label><input id="article_id" type="text" style="width: 120px"
+                <span class="from-item"><label>分类ID : </label><input id="article_id" type="text" style="width: 120px"
                                                                    class="input-text"></span>
-                <span class="from-item"><label>标题 : </label><input id="article_title" type="text" style="width: 220px"
+                <span class="from-item"><label>分类名称 : </label><input id="article_title" type="text" style="width: 220px"
                                                                    class="input-text"></span>
                 <span class="from-item">
-                    <label>日期范围 : </label>
-                    <input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
-                           id="start_time" class="input-text Wdate" style="width:120px;">
-                    -
-                    <input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })"
-                           id="end_time" class="input-text Wdate" style="width:120px;">
-                </span>
-                <span class="from-item">
-                    <label>分类 : </label>
+                    <label>父级分类 : </label>
                     <span class="select-box inline">
                         <select name="" id="article_category" class="select" style="width: 120px">
                             <option value="0">全部分类</option>
@@ -69,8 +61,11 @@
                     </span>
                 </span>
                 <span>
-                    <button name="" id="" class="btn btn-success" onclick="searchFrom()" type="button"><i
+                    <button name="" id="search_btn" class="btn btn-success" onclick="searchFrom()" type="button"><i
                             class="Hui-iconfont">&#xe665;</i> 搜索
+                    </button>
+                    <button name="" id="add_btn" class="btn btn-success" onclick="searchFrom()" type="button"><i
+                            class="Hui-iconfont">&#xe665;</i> 添加
                     </button>
                 </span>
             </div>
@@ -107,15 +102,14 @@
      * 上传文章封面
      * @param articleId
      */
-    function uploadPicUrl(articleId) {
-        console.log(articleId);
+    function uploadPicUrl(categoryId) {
+        console.log(categoryId);
         var $upload_from = $("#upload_from");
         var $upload_file = $('#upload_file');
-        var requestUrl = "/upload/uploadArticlePicUrl/" + articleId;
+        var requestUrl = "/upload/uploadCategoryPicUrl/" + categoryId;
         $upload_from.attr("action", requestUrl);
         $upload_file.click();
     }
-    ;
 
     /*上传图片按钮-改变事件*/
     $('#upload_file').change(function () {
@@ -124,12 +118,12 @@
         $upload_from.submit();
     });
 
-    /*文章-删除*/
-    function del_article(obj, articleId) {
+    /*分类-删除*/
+    function del_category(obj, categoryId) {
         layer.confirm('确认要删除吗？', function (index) {
             $.ajax({
                 type: 'POST',
-                url: '/article/del/' + articleId,
+                url: '/category/del/' + categoryId,
                 dataType: 'json',
                 success: function (data) {
                     $(obj).parents("tr").remove();
@@ -142,18 +136,18 @@
         });
     }
 
-    /*产品-下架*/
-    function product_stop(obj, articleId) {
+    /*分类-下架*/
+    function product_stop(obj, tagId) {
         layer.confirm('确认要下架吗？', function (index) {
-            var jsonData = {enable: 0, id: articleId};
+            var jsonData = {enable: 0, id: tagId};
             $.ajax({
                 type: 'POST',
-                url: '/article/stopOrStart',
+                url: '/tag/stopOrStart',
                 contentType:'application/json',
                 data:JSON.stringify(jsonData),
                 dataType: 'json',
                 success: function (data) {
-                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_start(this,'+articleId+')" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
+                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_start(this,'+tagId+')" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
                     $(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius">已下架</span>');
                     $(obj).remove();
                     layer.msg('已下架!', {icon: 5, time: 1000});
@@ -166,18 +160,18 @@
         });
     }
 
-    /*产品-发布*/
-    function product_start(obj, articleId) {
+    /*分类-发布*/
+    function product_start(obj, tagId) {
         layer.confirm('确认要发布吗？', function (index) {
-            var jsonData = {enable: 1, id: articleId};
+            var jsonData = {enable: 1, id: tagId};
             $.ajax({
                 type: 'POST',
-                url: '/article/stopOrStart',
+                url: '/tag/stopOrStart',
                 contentType:'application/json',
                 data:JSON.stringify(jsonData),
                 dataType: 'json',
                 success: function (data) {
-                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_stop(this,'+articleId+')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
+                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_stop(this,'+tagId+')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
                     $(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已发布</span>');
                     $(obj).remove();
                     layer.msg('已发布!', {icon: 6, time: 1000});
@@ -190,16 +184,16 @@
         });
     }
 
-
-
     $('.table-sort').dataTable({
         "bStateSave": true,//状态保存
         "searching": false,//关闭datatables自带搜索功能（没什么用）
+        "aLengthMenu": [[10, 15, 20], [10, 15, 20]],//搜索栏显示
         "processing": true,//代码没加载完成时 会显示加载中…
         "serverSide": true,//服务器端处理数据
         "oLanguage":    //DataTable中文化 把提示语之类的换成中文
         {
             "sProcessing": "正在加载中......",
+            "sLengthMenu": "每页显示 _MENU_ 条记录",
             "sZeroRecords": "对不起，查询不到相关数据！",
             "sEmptyTable": "表中无数据存在！",
             "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录",
@@ -214,15 +208,12 @@
         },
         ajax: {
             "type": "POST",
-            "url": '../blog/getArticleByPage',
+            "url": '../tag/getTagsByCondition',
             "data": function (data) {//在此处对data（datatables传给服务器端的数据）进行处理 data.start是从哪个数据开始，data.length是页面长度 通过这两个参数可以分页
                 //currentPage pageSize 是我们项目需要的参数 为了改动不大在data中加了这两个参数
                 var order = data.order;
                 data.id = $('#article_id').val();
                 data.title = $('#article_title').val();
-                data.startTime = $('#start_time').val();
-                data.endTime = $('#end_time').val();
-                data.module = 0;
                 data.currentPage = data.start / data.length + 1;
                 data.pageSize = data.length;
             }
@@ -238,27 +229,12 @@
                 }
             },//data 数据 如果复杂逻辑可以写在回调fnRowCallback中否则可以直接返回aoData的属性
             {"data": "id", "title": "ID", 'sClass': "text-center", "width": "60"},//'sClass': "text-center"居中
-            {"data": "title", "title": "标题", "width": "220"},//"orderable": false是否可排序（true界面上会有排序按钮）
-            {
-                "data": "picUrl",
-                "title": "封面",
-                'sClass': "text-center",
-                "width": "160",
-                "orderable": false,
-                render: function (data, type, row, meta) {
-                    var ele;
-                    if (data == undefined || data == '') {
-                        var id = row.id;
-                        ele = "<a onclick='uploadPicUrl(" + id + ")' href='javascript:void(0)'>上传封面</a>"
-                    } else {
-                        ele = '<img src="' + data + '" width="160px" height="107px"/>';
-                    }
-                    return ele;
-                }
-            },//"orderable": false是否可排序（true界面上会有排序按钮）
-            {"data": "categoryStr", "title": "所属分类", 'sClass': "text-center", "orderable": false, "width": "80"},
+            {"data": "name", "title": "标签名称", 'sClass': "text-center", "width": "110"},//"orderable": false是否可排序（true界面上会有排序按钮）
+            {"data": "parentName", "title": "父级标签", 'sClass': "text-center", "width": "110"},//"orderable": false是否可排序（true界面上会有排序按钮）
+            {"data": "categoryName", "title": "所属分类", 'sClass': "text-center", "width": "110", "orderable": false},//"orderable": false是否可排序（true界面上会有排序按钮）
+            {"data": "weight", "title": "权重", 'sClass': "text-center", "width": "80", "orderable": false},//"orderable": false是否可排序（true界面上会有排序按钮）
+            {"data": "total", "title": "文章总数", 'sClass': "text-center", "orderable": false, "width": "80"},
             {"data": "createOnStr", "title": "更新日期", 'sClass': "text-center", "width": "110"},
-            {"data": "viewHits", "title": "浏览次数", 'sClass': "text-center", "width": "60"},
             {
                 "data": "enable", "title": "发布状态", 'sClass': "text-center td-status", "width": "70",
                 render: function (data, type, row, meta) {
@@ -276,7 +252,7 @@
                 "title": "操作",
                 'sClass': "text-center td-manage",
                 "orderable": false,
-                "width": "80",
+                "width": "100",
                 render: function (data, type, row, meta) {
                     var is_pub;
                     if (!row.enable) {
@@ -286,7 +262,7 @@
                     }
                     return is_pub +
                             '<a style="text-decoration:none" class="ml-5" onClick="article_edit("资讯编辑","article-add.html","10001")" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>' +
-                            '<a style="text-decoration:none" class="ml-5" href="javascript:void(0)" onclick="del_article(this,' + row.id + ')" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>';
+                            '<a style="text-decoration:none" class="ml-5" href="javascript:void(0)" onclick="del_category(this,' + row.id + ')" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>';
                 }
             }
         ]

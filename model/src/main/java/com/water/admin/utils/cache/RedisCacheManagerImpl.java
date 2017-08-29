@@ -164,4 +164,37 @@ public class RedisCacheManagerImpl implements CacheManager {
         return result;
     }
 
+    @Override
+    public List getList(String key, Class classType) {
+        if (key == null || "".equals(key)) {
+            return null;
+        }
+        ListTranscoder<Class> listTranscoder = new ListTranscoder<Class>();
+        byte[] bytes = get(key);
+        if (bytes == null) {
+            return null;
+        }
+        return (List) listTranscoder.deserialize(bytes);
+    }
+
+    @Override
+    public void setList(String key, List list, int seconds, Class classType) {
+        ListTranscoder<Class> listTranscoder = new ListTranscoder<Class>();
+        set(key, listTranscoder.serialize(list), seconds);
+    }
+
+    @Override
+    public void set(String key, byte[] data, int seconds) {
+        ShardedJedis jedis = pool.getResource();
+        try {
+            byte[] key_data = key.getBytes("utf8");
+            jedis.set(key_data, data);
+            jedis.expire(key_data, seconds);
+        } catch (Exception e) {
+            //  e.printStackTrace();
+        } finally {
+            pool.returnResource(jedis);
+        }
+    }
+
 }

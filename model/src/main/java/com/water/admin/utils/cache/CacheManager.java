@@ -35,4 +35,9 @@ public interface CacheManager {
 
     public List<byte[]> lrange(byte[] key, long start, long end);
 
+    public List getList(String key, Class classType);
+
+    public void setList(String key, List list, int seconds, Class classType);
+
+    public void set(String key, byte[] data, int seconds);
 }

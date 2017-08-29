@@ -1,10 +1,14 @@
 package com.water.admin.db.controller.commons;
 
 import com.water.admin.utils.lang.FileTools;
+import com.water.uubook.model.Category;
 import com.water.uubook.model.dto.ArticleDto;
+import com.water.uubook.model.dto.CategoryDto;
 import com.water.uubook.service.ArticleService;
+import com.water.uubook.service.CategoryService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.commons.pool.ObjectPool;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -25,9 +29,11 @@ import java.util.UUID;
 @RestController
 @RequestMapping(value = "/upload")
 public class UploadController {
-
     @Resource
     private ArticleService articleService;
+
+    @Resource
+    private CategoryService categoryService;
 
     private static Log logger = LogFactory.getLog(UploadController.class);
 
@@ -109,6 +115,59 @@ public class UploadController {
         }
 
         return null;
+    }
 
+    @RequestMapping(value = "/uploadCategoryPicUrl/{categoryId}", method = RequestMethod.POST, produces = "application/json")
+    public Map<String, Object> uploadCategoryPicUrl(@RequestParam(value = "file", required = false)
+                                                    MultipartFile file,
+                                                    @PathVariable Integer categoryId,
+                                                    HttpServletRequest request) {
+        //定义返回的json格式
+        Map<String, Object> jsonMap = new HashMap<String, Object>();
+        Category category = categoryService.findCategoryById(categoryId);
+        if (category == null) {
+            logger.info("id为" + categoryId + "的文章不存在！");
+            return null;
+        }
+
+        //保存文件
+        try {
+            String picUrl = this.uploadPic(request, file);
+            jsonMap.put("imgSrc", picUrl);
+            category.setPicUrl(picUrl);
+            categoryService.updateCategory(category);
+            return jsonMap;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    private String uploadPic(HttpServletRequest request, MultipartFile file) {
+        //文件上传路径
+        String path = request.getSession().getServletContext().getRealPath("upload");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
+        String uploadDate = dateFormat.format(new Date());
+        path = path + File.separator + uploadDate;
+
+        //上传文件名字
+        String extendsFileName = FileTools.getFileExtendsName(file.getOriginalFilename());
+        String fileName = UUID.randomUUID().toString() + extendsFileName;
+        File targetFile = new File(path, fileName);
+
+        //创建文件
+        if (!targetFile.exists()) {
+            targetFile.mkdirs();
+        }
+
+        //保存文件
+        try {
+            file.transferTo(targetFile);
+            return "/upload" + File.separator + uploadDate + File.separator + fileName;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

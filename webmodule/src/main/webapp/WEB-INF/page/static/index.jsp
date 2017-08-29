@@ -1,11 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: mrwater
-  Date: 2017/8/23
-  Time: 上午10:45
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
@@ -35,42 +28,29 @@
         }
     </style>
 </head>
-<jsp:include page="../../common.jsp"/>
+<jsp:include page="../common.jsp"/>
 <body>
-<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 版块管理 <span
-        class="c-gray en">&gt;</span> 文档模块 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 静态化维护 <span
+        class="c-gray en">&gt;</span> 首页 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
                                               href="javascript:location.replace(location.href);" title="刷新"><i
         class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div id="container">
     <div class="mt-20">
         <div id="search-from">
             <div class="row">
-                <span class="from-item"><label>ID : </label><input id="article_id" type="text" style="width: 120px"
-                                                                   class="input-text"></span>
-                <span class="from-item"><label>标题 : </label><input id="article_title" type="text" style="width: 220px"
-                                                                   class="input-text"></span>
                 <span class="from-item">
-                    <label>日期范围 : </label>
-                    <input type="text" onfocus="WdatePicker({ maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}' })"
-                           id="start_time" class="input-text Wdate" style="width:120px;">
-                    -
-                    <input type="text" onfocus="WdatePicker({ minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d' })"
-                           id="end_time" class="input-text Wdate" style="width:120px;">
-                </span>
-                <span class="from-item">
-                    <label>分类 : </label>
+                    <label>版块区域 : </label>
                     <span class="select-box inline">
-                        <select name="" id="article_category" class="select" style="width: 120px">
-                            <option value="0">全部分类</option>
-                            <c:forEach items="${requestScope.allCategories}" var="category">
-                                <option value="${category.id}">${category.name}</option>
+                        <select name="" id="static_module" class="select" style="width: 120px">
+                            <c:forEach items="${requestScope.moduleList}" var="module">
+                                <option value="${module.id}">${module.name}</option>
                             </c:forEach>
                         </select>
                     </span>
                 </span>
                 <span>
-                    <button name="" id="" class="btn btn-success" onclick="searchFrom()" type="button"><i
-                            class="Hui-iconfont">&#xe665;</i> 搜索
+                    <button name="" id="add_btn" class="btn btn-success" onclick="searchFrom()" type="button"><i
+                            class="Hui-iconfont">&#xe665;</i> 生成静态模板
                     </button>
                 </span>
             </div>
@@ -107,15 +87,14 @@
      * 上传文章封面
      * @param articleId
      */
-    function uploadPicUrl(articleId) {
-        console.log(articleId);
+    function uploadPicUrl(categoryId) {
+        console.log(categoryId);
         var $upload_from = $("#upload_from");
         var $upload_file = $('#upload_file');
-        var requestUrl = "/upload/uploadArticlePicUrl/" + articleId;
+        var requestUrl = "/upload/uploadCategoryPicUrl/" + categoryId;
         $upload_from.attr("action", requestUrl);
         $upload_file.click();
     }
-    ;
 
     /*上传图片按钮-改变事件*/
     $('#upload_file').change(function () {
@@ -124,12 +103,20 @@
         $upload_from.submit();
     });
 
-    /*文章-删除*/
-    function del_article(obj, articleId) {
+    $('#static_module').change(function(){
+        var select_module = $(this).val();
+        console.log(select_module);
+        var table = $('.table-sort').dataTable();
+        console.log(table);
+        table.api().ajax.reload();
+    });
+
+    /*分类-删除*/
+    function del_category(obj, categoryId) {
         layer.confirm('确认要删除吗？', function (index) {
             $.ajax({
                 type: 'POST',
-                url: '/article/del/' + articleId,
+                url: '/category/del/' + categoryId,
                 dataType: 'json',
                 success: function (data) {
                     $(obj).parents("tr").remove();
@@ -142,18 +129,18 @@
         });
     }
 
-    /*产品-下架*/
-    function product_stop(obj, articleId) {
+    /*分类-下架*/
+    function product_stop(obj, categoryId) {
         layer.confirm('确认要下架吗？', function (index) {
-            var jsonData = {enable: 0, id: articleId};
+            var jsonData = {enable: 0, id: categoryId};
             $.ajax({
                 type: 'POST',
-                url: '/article/stopOrStart',
+                url: '/category/stopOrStart',
                 contentType:'application/json',
                 data:JSON.stringify(jsonData),
                 dataType: 'json',
                 success: function (data) {
-                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_start(this,'+articleId+')" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
+                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_start(this,'+categoryId+')" href="javascript:;" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>');
                     $(obj).parents("tr").find(".td-status").html('<span class="label label-defaunt radius">已下架</span>');
                     $(obj).remove();
                     layer.msg('已下架!', {icon: 5, time: 1000});
@@ -166,18 +153,18 @@
         });
     }
 
-    /*产品-发布*/
-    function product_start(obj, articleId) {
+    /*分类-发布*/
+    function product_start(obj, categoryId) {
         layer.confirm('确认要发布吗？', function (index) {
-            var jsonData = {enable: 1, id: articleId};
+            var jsonData = {enable: 1, id: categoryId};
             $.ajax({
                 type: 'POST',
-                url: '/article/stopOrStart',
+                url: '/category/stopOrStart',
                 contentType:'application/json',
                 data:JSON.stringify(jsonData),
                 dataType: 'json',
                 success: function (data) {
-                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_stop(this,'+articleId+')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
+                    $(obj).parents("tr").find(".td-manage").prepend('<a style="text-decoration:none" onClick="product_stop(this,'+categoryId+')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>');
                     $(obj).parents("tr").find(".td-status").html('<span class="label label-success radius">已发布</span>');
                     $(obj).remove();
                     layer.msg('已发布!', {icon: 6, time: 1000});
@@ -190,16 +177,16 @@
         });
     }
 
-
-
     $('.table-sort').dataTable({
         "bStateSave": true,//状态保存
         "searching": false,//关闭datatables自带搜索功能（没什么用）
+        "aLengthMenu": [[10, 15, 20], [10, 15, 20]],//搜索栏显示
         "processing": true,//代码没加载完成时 会显示加载中…
         "serverSide": true,//服务器端处理数据
         "oLanguage":    //DataTable中文化 把提示语之类的换成中文
         {
             "sProcessing": "正在加载中......",
+            "sLengthMenu": "每页显示 _MENU_ 条记录",
             "sZeroRecords": "对不起，查询不到相关数据！",
             "sEmptyTable": "表中无数据存在！",
             "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录",
@@ -214,15 +201,15 @@
         },
         ajax: {
             "type": "POST",
-            "url": '../blog/getArticleByPage',
+            "url": '../article/getArticleByPage',
             "data": function (data) {//在此处对data（datatables传给服务器端的数据）进行处理 data.start是从哪个数据开始，data.length是页面长度 通过这两个参数可以分页
                 //currentPage pageSize 是我们项目需要的参数 为了改动不大在data中加了这两个参数
                 var order = data.order;
-                data.id = $('#article_id').val();
-                data.title = $('#article_title').val();
-                data.startTime = $('#start_time').val();
-                data.endTime = $('#end_time').val();
-                data.module = 0;
+//                data.id = $('#article_id').val();
+//                data.title = $('#article_title').val();
+//                data.startTime = $('#start_time').val();
+//                data.endTime = $('#end_time').val();
+                data.module = $('#static_module').val();
                 data.currentPage = data.start / data.length + 1;
                 data.pageSize = data.length;
             }
