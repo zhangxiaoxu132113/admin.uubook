@@ -214,7 +214,7 @@
         },
         ajax: {
             "type": "POST",
-            "url": '../blog/getArticleByPage',
+            "url": '../article/getArticleByPage',
             "data": function (data) {//在此处对data（datatables传给服务器端的数据）进行处理 data.start是从哪个数据开始，data.length是页面长度 通过这两个参数可以分页
                 //currentPage pageSize 是我们项目需要的参数 为了改动不大在data中加了这两个参数
                 var order = data.order;

@@ -9,35 +9,41 @@ import java.util.List;
  * Created by zhangmiaojie on 2017/2/4.
  */
 public interface CacheManager {
-    public ShardedJedis getShardedJedis();
+    ShardedJedis getShardedJedis();
 
-    public ShardedJedisPool getShardedJedisPool();
+    ShardedJedisPool getShardedJedisPool();
 
-    public void set(String key, String value);
+    void set(String key, String value);
 
-    public void set(String key, byte[] value);
+    void set(String key, byte[] value);
 
-    public byte[] get(String key);
+    byte[] get(String key);
 
-    public Long sadd(String key, String... value);
+    Long sadd(String key, String... value);
 
-    public Long llen(String key);
+    Long llen(String key);
 
-    public void del(String key);
+    void del(String key);
 
-    public void lpush(String key, String... value);
+    void lpush(String key, String... value);
 
-    public void lpush(String key, byte[]... value);
+    void lpush(String key, byte[]... value);
 
-    public String lpop(String key);
+    String lpop(String key);
 
-    public byte[] lpop(byte[] key);
+    byte[] lpop(byte[] key);
 
-    public List<byte[]> lrange(byte[] key, long start, long end);
+    long lrem(byte[] key, byte[] value);
 
-    public List getList(String key, Class classType);
+    String ltrim(String key, long start, long end);
 
-    public void setList(String key, List list, int seconds, Class classType);
+    List<byte[]> lrange(byte[] key, long start, long end);
 
-    public void set(String key, byte[] data, int seconds);
+    List getList(String key, Class classType);
+
+    void setList(String key, List list, int seconds, Class classType);
+
+    void set(String key, byte[] data, int seconds);
+
+    void rpush(String key, byte[] value);
 }

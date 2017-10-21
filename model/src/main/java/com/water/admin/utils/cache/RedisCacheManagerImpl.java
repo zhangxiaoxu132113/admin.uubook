@@ -152,6 +152,32 @@ public class RedisCacheManagerImpl implements CacheManager {
     }
 
     @Override
+    public long lrem(byte[] key, byte[] value) {
+        ShardedJedis jedis = this.pool.getResource();
+        Long result = null;
+        try {
+            result = jedis.lrem(key, 0, value);
+            this.pool.returnResource(jedis);
+        } catch (Exception e) {
+            this.pool.returnBrokenResource(jedis);
+        }
+        return result;
+    }
+
+    @Override
+    public String ltrim(String key, long start, long end) {
+        ShardedJedis jedis = this.pool.getResource();
+        String result = null;
+        try {
+            result = jedis.ltrim(key, start, end);
+            this.pool.returnResource(jedis);
+        } catch (Exception e) {
+            this.pool.returnBrokenResource(jedis);
+        }
+        return result;
+    }
+
+    @Override
     public List<byte[]> lrange(byte[] key, long start, long end) {
         ShardedJedis jedis = this.pool.getResource();
         List<byte[]> result = null;
@@ -194,6 +220,17 @@ public class RedisCacheManagerImpl implements CacheManager {
             //  e.printStackTrace();
         } finally {
             pool.returnResource(jedis);
+        }
+    }
+
+    @Override
+    public void rpush(String key, byte[] value) {
+        ShardedJedis jedis = this.pool.getResource();
+        try {
+            jedis.rpush(key.getBytes(), value);
+            this.pool.returnResource(jedis);
+        } catch (Exception e) {
+            this.pool.returnBrokenResource(jedis);
         }
     }
 

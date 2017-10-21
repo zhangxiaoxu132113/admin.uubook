@@ -1,9 +1,14 @@
 package com.water.admin.db.controller;
 
+import com.water.admin.db.domain.dto.DataResponse;
+import com.water.admin.db.domain.dto.TableDataResponse;
+import com.water.admin.utils.ObjectAndByte;
+import com.water.admin.utils.SerializeUtil;
 import com.water.admin.utils.cache.CacheManager;
 import com.water.admin.utils.common.Constants;
 import com.water.uubook.model.Article;
 import com.water.uubook.model.dto.ArticleDto;
+import com.water.uubook.service.ArticleService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -19,6 +24,9 @@ public class StaticController {
 
     @Resource
     private CacheManager cacheManager;
+
+    @Resource
+    private ArticleService articleService;
 
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
@@ -38,11 +46,58 @@ public class StaticController {
     }
 
     @RequestMapping(value = "/index/findArticles")
-    public List<ArticleDto> findStaticModuleArticles(@RequestParam Integer module) {
+    public TableDataResponse findStaticModuleArticles(@RequestParam(defaultValue = "1") int draw, @RequestParam Integer module) {
+        TableDataResponse response = new TableDataResponse();
         String redis_key = "static_index_module_%s";
         redis_key = String.format(redis_key, module);
-        List<ArticleDto> articleDtoList = cacheManager.getList(redis_key, ArticleDto.class);
 
-        return articleDtoList;
+        List<ArticleDto> articleDtoList = new ArrayList<>();
+        List<byte[]> byteValues = cacheManager.lrange(redis_key.getBytes(), 0, -1);
+        for (byte[] byteValue : byteValues) {
+            ArticleDto articleDto = (ArticleDto) SerializeUtil.unserialize(byteValue);
+            articleDtoList.add(articleDto);
+        }
+        response.setDraw(draw);
+        response.setiTotalRecords(20);
+        response.setiTotalDisplayRecords(20);
+        response.setAaData(articleDtoList);
+
+        return response;
+    }
+
+    @RequestMapping(value = "/index/addStaticModuleArticles")
+    public DataResponse addStaticModuleArticles(@RequestBody ArticleDto model) {
+        DataResponse response = new DataResponse();
+        response.setCode(DataResponse.SUCCEED);
+        if (model == null || model.getIds() == null || model.getIds().length == 0) {
+            response.setCode(DataResponse.PARAMETER_ERROR);
+            return response;
+        }
+        String redis_key = "static_index_module_%s";
+        final String key = String.format(redis_key, model.getModule());
+        List<ArticleDto> articleList = articleService.findArticleListInIds(new String[]{"id", "title", "picUrl", "createOn"}, model.getIds());
+        putArticleToRedis(key, articleList);
+
+        return response;
+    }
+
+    @RequestMapping(value = "/index/delModuleArticle/{module}/{articleId}")
+    public DataResponse delModuleArticle(@PathVariable Integer module, @PathVariable Integer articleId) {
+        DataResponse response = new DataResponse();
+        response.setCode(DataResponse.SUCCEED);
+        String redis_key = "static_index_module_%s";
+        final String key = String.format(redis_key, module);
+
+        return response;
+    }
+
+
+    private void putArticleToRedis(String key, List<ArticleDto> articleList) {
+        articleList.stream().forEach(p -> {
+            byte[] value = SerializeUtil.serialize(p);
+            cacheManager.lrem(key.getBytes(), value);
+            cacheManager.rpush(key, value);
+            cacheManager.ltrim(key, 0, 20);
+        });
     }
 }
