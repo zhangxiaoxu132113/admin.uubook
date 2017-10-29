@@ -78,7 +78,6 @@ $(document).ready(function () {
     $('#upload_file').change(function () {
         setJsonBySubmit($('#upload_from'), "upload_iframe", function (data) {
             var img = '<img src="' + data.imgSrc + '" width="120px" height="70.5px"/>';
-            console.log(img);
             $('#img-info-'+select_upload_id).replaceWith(img);
         });
     });
