@@ -38,7 +38,8 @@ function Huiasidedisplay(){
 }
 /*获取皮肤cookie*/
 function getskincookie(){
-	var v = $.cookie("Huiskin");
+	//var v = $.cookie("Huiskin");
+	var v = "blue";
 	var hrefStr=$("#skin").attr("href");
 	if(v==null||v==""){
 		v="default";

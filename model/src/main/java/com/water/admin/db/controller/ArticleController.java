@@ -38,8 +38,8 @@ public class ArticleController {
                                               @RequestParam(defaultValue = "1") int currentPage,
                                               @RequestParam(defaultValue = "10") int pageSize) {
         TableDataResponse response = new TableDataResponse();
-        String[] cols = new String[]{"id", "title", "viewHits","picUrl", "enable", "createOn", "category"};
-        List<ArticleDto> articleDtoList = articleService.findArticleListByCondition(model, cols, currentPage, pageSize);
+        String[] cols = new String[]{"id", "title", "viewHits","picUrl", "enable", "createOn", "category", "module"};
+        List<ArticleDto> articleDtoList = articleService.findArticleListByCondition(model, cols, null, currentPage, pageSize);
         int total = articleService.countArticleTotal(model);
 
         response.setDraw(draw);
