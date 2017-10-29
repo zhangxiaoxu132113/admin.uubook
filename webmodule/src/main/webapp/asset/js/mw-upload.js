@@ -13,7 +13,7 @@ var setJsonBySubmit = function(formObj,iframeName,uploadSuccess_callBack) {
     var resultJson ;
     var timer = window.setInterval(function(){
         var result = $(window.frames[iframeName].document).find("pre").html(); //这里写的比较死
-        window.frames[iframeName].document.location.reload();
+        $(window.frames[iframeName].document).find("pre").html('');//清空内容
         resultJson = JSON.parse(result);
         if (resultJson != undefined && resultJson != '') {
             window.clearInterval(timer);
