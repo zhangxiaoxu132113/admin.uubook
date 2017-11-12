@@ -1,16 +1,13 @@
 package com.water.admin.db.controller.module;
 
-import com.alibaba.druid.support.console.TabledDataPrinter;
-import com.water.admin.db.domain.dto.TableDataResponse;
 import com.water.uubook.model.dto.ArticleDto;
 import com.water.uubook.model.dto.CategoryDto;
 import com.water.uubook.service.ArticleService;
 import com.water.uubook.service.CategoryService;
 import com.water.uubook.utils.Constants;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -42,6 +39,20 @@ public class BlogController {
         mav.addObject("allModule", allModule);
         mav.addObject("allCategories", allCategories);
         mav.setViewName("/module/blog/home");
+        return mav;
+    }
+
+    @RequestMapping(value = "/edit_view/{articleId}", method = RequestMethod.GET)
+    public ModelAndView editView(@PathVariable Integer articleId) {
+        ModelAndView mav = new ModelAndView();
+        ArticleDto articleDto = articleService.findArticleById(articleId);
+        List<CategoryDto> allCategories = categoryService.getAllParentCategories();
+        List<Map<String, Object>> allModule = this.getAllModule();
+
+        mav.addObject("article", articleDto);
+        mav.addObject("allModule", allModule);
+        mav.addObject("allCategories", allCategories);
+        mav.setViewName("/module/blog/dialog/edit_article");
         return mav;
     }
 

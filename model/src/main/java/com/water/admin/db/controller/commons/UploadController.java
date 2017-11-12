@@ -1,14 +1,16 @@
 package com.water.admin.db.controller.commons;
 
+import com.water.admin.db.domain.dto.BaseResponse;
+import com.water.admin.db.domain.dto.DataResponse;
 import com.water.admin.utils.lang.FileTools;
+import com.water.image.client.ImageUploadClient;
 import com.water.uubook.model.Category;
 import com.water.uubook.model.dto.ArticleDto;
-import com.water.uubook.model.dto.CategoryDto;
 import com.water.uubook.service.ArticleService;
 import com.water.uubook.service.CategoryService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.apache.commons.pool.ObjectPool;
+import org.apache.thrift.TException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -75,46 +77,19 @@ public class UploadController {
         return null;
 
     }
+
     @RequestMapping(value = "/uploadArticlePicUrl/{articleId}", method = RequestMethod.POST, produces = "application/json")
-    public Map<String, Object> uploadArticlePicUrl(@RequestParam(value = "file", required = false)
-                                                   MultipartFile file,
-                                                   @PathVariable Integer articleId,
-                                                   HttpServletRequest request) {
+    public DataResponse uploadArticlePicUrl(@RequestParam(value = "file", required = false) MultipartFile file,
+                                            @PathVariable Integer articleId, HttpServletRequest request) throws IOException, TException {
         //定义返回的json格式
-        Map<String, Object> jsonMap = new HashMap<String, Object>();
         ArticleDto article = articleService.findArticleById(articleId);
         if (article == null) {
-            logger.info("id为" + articleId + "的文章不存在！");
-            return null;
+            return new DataResponse(BaseResponse.NOT_FOUND_RESOURCE, "id为" + articleId + "的文章不存在！");
         }
-        //文件上传路径
-        String path = request.getSession().getServletContext().getRealPath("upload");
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
-        String uploadDate = dateFormat.format(new Date());
-        path = path + File.separator + uploadDate;
-
-        //上传文件名字
-        String extendsFileName = FileTools.getFileExtendsName(file.getOriginalFilename());
-        String fileName = UUID.randomUUID().toString() + extendsFileName;
-        File targetFile = new File(path, fileName);
-
-        //创建文件
-        if (!targetFile.exists()) {
-            targetFile.mkdirs();
-        }
-
-        //保存文件
-        try {
-            file.transferTo(targetFile);
-            jsonMap.put("imgSrc", "/upload" + File.separator + uploadDate + File.separator + fileName);
-            article.setPicUrl("/upload" + File.separator + uploadDate + File.separator + fileName);
-            articleService.updateArticle(article);
-            return jsonMap;
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return null;
+        String picPath = ImageUploadClient.uploadImage(file.getBytes(), file.getOriginalFilename());
+        article.setPicUrl(picPath);
+        articleService.updateArticle(article);
+        return new DataResponse(picPath);
     }
 
     @RequestMapping(value = "/uploadCategoryPicUrl/{categoryId}", method = RequestMethod.POST, produces = "application/json")

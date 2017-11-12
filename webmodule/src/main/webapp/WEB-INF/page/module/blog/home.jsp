@@ -20,8 +20,7 @@
 
         #search-from {
             background: #fff;
-            padding: 1em 0 0 1em;
-            padding-bottom: 1em;
+            padding: 1em 0 1em 1em;
             border-bottom: 1px solid #ebeef2;
         }
         #DataTables_Table_0_wrapper {

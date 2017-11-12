@@ -1,4 +1,7 @@
 var select_upload_id = 0;
+var editInfo = "编辑文章";
+var editUrl = "edit_view/";
+
 /**
  * 上传文章封面
  * @param articleId
@@ -61,6 +64,36 @@ function product_start(obj, articleId) {
     });
 }
 
+/*文章-删除*/
+function del_article(obj, articleId) {
+    layer.confirm('确认要删除吗？', function (index) {
+        $.ajax({
+            type: 'POST',
+            url: '/article/del/' + articleId,
+            dataType: 'json',
+            success: function (data) {
+                //$(obj).parents("tr").remove();
+                var table = $('.table-sort').dataTable();
+                table.api().ajax.reload();
+                layer.msg('已删除!', {icon: 1, time: 1000});
+            },
+            error: function (data) {
+                console.log(data.msg);
+            },
+        });
+    });
+}
+
+/*文章-编辑*/
+function article_edit(title, articleId) {
+    var index = layer.open({
+        type: 2,
+        title: title,
+        content: editUrl + articleId
+    });
+    layer.full(index);
+}
+
 $(document).ready(function () {
     /*搜索*/
     $('#search-btn').click(function () {
@@ -77,28 +110,10 @@ $(document).ready(function () {
     /*上传图片按钮-改变事件*/
     $('#upload_file').change(function () {
         setJsonBySubmit($('#upload_from'), "upload_iframe", function (data) {
-            var img = '<img src="' + data.imgSrc + '" width="120px" height="70.5px"/>';
-            $('#img-info-'+select_upload_id).replaceWith(img);
+            var img = '<img src="' + data + '" width="120px" height="70.5px"/>';
+            $('#img-info-' + select_upload_id).replaceWith(img);
         });
     });
-
-    /*文章-删除*/
-    function del_article(obj, articleId) {
-        layer.confirm('确认要删除吗？', function (index) {
-            $.ajax({
-                type: 'POST',
-                url: '/article/del/' + articleId,
-                dataType: 'json',
-                success: function (data) {
-                    $(obj).parents("tr").remove();
-                    layer.msg('已删除!', {icon: 1, time: 1000});
-                },
-                error: function (data) {
-                    console.log(data.msg);
-                },
-            });
-        });
-    }
 
     $('.table-sort').dataTable({
         "bStateSave": true,//状态保存
@@ -190,13 +205,14 @@ $(document).ready(function () {
                 "width": "70",
                 render: function (data, type, row, meta) {
                     var is_pub;
+                    var articleId = row.id;
                     if (!row.enable) {
                         is_pub = '<a style="text-decoration:none" onclick="product_start(this,' + row.id + ')" title="发布"><i class="Hui-iconfont">&#xe603;</i></a>';
                     } else {
                         is_pub = '<a style="text-decoration:none" onclick="product_stop(this,' + row.id + ')" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a>';
                     }
                     return is_pub +
-                        '<a style="text-decoration:none" class="ml-5" onClick="article_edit("资讯编辑","article-add.html","10001")" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>' +
+                        '<a style="text-decoration:none" class="ml-5" onClick="article_edit(editInfo,' + row.id + ')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a>' +
                         '<a style="text-decoration:none" class="ml-5" href="javascript:void(0)" onclick="del_article(this,' + row.id + ')" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a>';
                 }
             }

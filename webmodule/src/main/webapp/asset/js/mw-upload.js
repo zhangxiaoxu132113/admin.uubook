@@ -17,7 +17,7 @@ var setJsonBySubmit = function(formObj,iframeName,uploadSuccess_callBack) {
         resultJson = JSON.parse(result);
         if (resultJson != undefined && resultJson != '') {
             window.clearInterval(timer);
-            uploadSuccess_callBack.call(this,resultJson);
+            uploadSuccess_callBack.call(this,resultJson.data);
         }
     },1000);
 }

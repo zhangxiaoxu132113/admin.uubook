@@ -27,6 +27,10 @@ public class BaseResponse implements Serializable {
      * 其他错误
      */
     public static final int OTHER_ERROR = 5;//其他错误
+    /**
+     * 找不到对应的资源
+     */
+    public static final int NOT_FOUND_RESOURCE = 404;
 
     private int code;
     private String info;
