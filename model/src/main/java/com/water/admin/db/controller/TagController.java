@@ -1,10 +1,10 @@
 package com.water.admin.db.controller;
 
 import com.water.admin.db.domain.dto.TableDataResponse;
-import com.water.uubook.model.dto.CategoryDto;
-import com.water.uubook.model.dto.TagDto;
-import com.water.uubook.service.CategoryService;
-import com.water.uubook.service.TagService;
+import com.water.uubook.model.dto.TbUbCategoryDto;
+import com.water.uubook.model.dto.TbUbTagDto;
+import com.water.uubook.service.TbUbCategoryService;
+import com.water.uubook.service.TbUbTagService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -20,10 +20,10 @@ import java.util.List;
 public class TagController {
 
     @Resource
-    private CategoryService categoryService;
+    private TbUbCategoryService categoryService;
 
     @Resource
-    private TagService tagService;
+    private TbUbTagService tagService;
 
     /**
      * 视图跳转-标签管理
@@ -32,7 +32,7 @@ public class TagController {
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {
         ModelAndView mav = new ModelAndView();
-        List<CategoryDto> allCategories = categoryService.getAllParentCategories();
+        List<TbUbCategoryDto> allCategories = categoryService.getAllParentCategories();
 
         mav.addObject("allCategories", allCategories);
         mav.setViewName("/tag/home");
@@ -48,12 +48,12 @@ public class TagController {
      * @return
      */
     @RequestMapping(value = "/getTagsByCondition", method = RequestMethod.POST)
-    public TableDataResponse getTagsByCondition(TagDto model,
+    public TableDataResponse getTagsByCondition(TbUbTagDto model,
                                                  @RequestParam(defaultValue = "1") int draw,
                                                  @RequestParam(defaultValue = "1") int currentPage,
                                                  @RequestParam(defaultValue = "10") int pageSize) {
         TableDataResponse response = new TableDataResponse();
-        List<TagDto> categoryDtoList = tagService.getTagsByCondition(model, null, currentPage, pageSize);
+        List<TbUbTagDto> categoryDtoList = tagService.getTagsByCondition(model, null, currentPage, pageSize);
         int total = tagService.countTagTotal(model);
 
         response.setDraw(draw);
@@ -80,7 +80,7 @@ public class TagController {
      * @return
      */
     @RequestMapping(value = "/stopOrStart")
-    public String stopOrStart(@RequestBody TagDto model) {
+    public String stopOrStart(@RequestBody TbUbTagDto model) {
         model.setCreateTime(new Date());
         tagService.updateTag(model);
         return "";

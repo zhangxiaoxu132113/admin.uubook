@@ -6,9 +6,9 @@ import com.water.admin.utils.ObjectAndByte;
 import com.water.admin.utils.SerializeUtil;
 import com.water.admin.utils.cache.CacheManager;
 import com.water.admin.utils.common.Constants;
-import com.water.uubook.model.Article;
-import com.water.uubook.model.dto.ArticleDto;
-import com.water.uubook.service.ArticleService;
+import com.water.uubook.model.TbUbArticle;
+import com.water.uubook.model.dto.TbUbArticleDto;
+import com.water.uubook.service.TbUbArticleService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -26,7 +26,7 @@ public class StaticController {
     private CacheManager cacheManager;
 
     @Resource
-    private ArticleService articleService;
+    private TbUbArticleService articleService;
 
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
@@ -51,10 +51,10 @@ public class StaticController {
         String redis_key = "static_index_module_%s";
         redis_key = String.format(redis_key, module);
 
-        List<ArticleDto> articleDtoList = new ArrayList<>();
+        List<TbUbArticleDto> articleDtoList = new ArrayList<>();
         List<byte[]> byteValues = cacheManager.lrange(redis_key.getBytes(), 0, -1);
         for (byte[] byteValue : byteValues) {
-            ArticleDto articleDto = (ArticleDto) SerializeUtil.unserialize(byteValue);
+            TbUbArticleDto articleDto = (TbUbArticleDto) SerializeUtil.unserialize(byteValue);
             articleDtoList.add(articleDto);
         }
         response.setDraw(draw);
@@ -66,7 +66,7 @@ public class StaticController {
     }
 
     @RequestMapping(value = "/index/addStaticModuleArticles")
-    public DataResponse addStaticModuleArticles(@RequestBody ArticleDto model) {
+    public DataResponse addStaticModuleArticles(@RequestBody TbUbArticleDto model) {
         DataResponse response = new DataResponse();
         response.setCode(DataResponse.SUCCEED);
         if (model == null || model.getIds() == null || model.getIds().length == 0) {
@@ -75,7 +75,7 @@ public class StaticController {
         }
         String redis_key = "static_index_module_%s";
         final String key = String.format(redis_key, model.getModule());
-        List<ArticleDto> articleList = articleService.findArticleListInIds(new String[]{"id", "title", "picUrl", "createOn"}, model.getIds());
+        List<TbUbArticleDto> articleList = articleService.findArticleListInIds(new String[]{"id", "title", "picUrl", "createOn"}, model.getIds());
         putArticleToRedis(key, articleList);
 
         return response;
@@ -92,7 +92,7 @@ public class StaticController {
     }
 
 
-    private void putArticleToRedis(String key, List<ArticleDto> articleList) {
+    private void putArticleToRedis(String key, List<TbUbArticleDto> articleList) {
         articleList.stream().forEach(p -> {
             byte[] value = SerializeUtil.serialize(p);
             cacheManager.lrem(key.getBytes(), value);

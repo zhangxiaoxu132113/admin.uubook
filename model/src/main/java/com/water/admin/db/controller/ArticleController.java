@@ -1,9 +1,9 @@
 package com.water.admin.db.controller;
 
 import com.water.admin.db.domain.dto.TableDataResponse;
-import com.water.uubook.model.Article;
-import com.water.uubook.model.dto.ArticleDto;
-import com.water.uubook.service.ArticleService;
+import com.water.uubook.model.TbUbArticle;
+import com.water.uubook.model.dto.TbUbArticleDto;
+import com.water.uubook.service.TbUbArticleService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -17,7 +17,7 @@ import java.util.List;
 public class ArticleController {
 
     @Resource
-    private ArticleService articleService;
+    private TbUbArticleService articleService;
 
     @RequestMapping(value = "/del/{articleId}", method = RequestMethod.POST)
     public String delArticle(@PathVariable Integer articleId) {
@@ -26,20 +26,20 @@ public class ArticleController {
     }
 
     @RequestMapping(value = "/stopOrStart", method = RequestMethod.POST)
-    public ArticleDto stopOrStart(@RequestBody ArticleDto model) {
+    public TbUbArticleDto stopOrStart(@RequestBody TbUbArticleDto model) {
         model.setCreateOn(System.currentTimeMillis());
         articleService.updateArticle(model);
         return model;
     }
 
     @RequestMapping(value = "/getArticleByPage")
-    public TableDataResponse getArticleByPage(ArticleDto model,
+    public TableDataResponse getArticleByPage(TbUbArticleDto model,
                                               @RequestParam(defaultValue = "1") int draw,
                                               @RequestParam(defaultValue = "1") int currentPage,
                                               @RequestParam(defaultValue = "10") int pageSize) {
         TableDataResponse response = new TableDataResponse();
         String[] cols = new String[]{"id", "title", "viewHits","picUrl", "enable", "createOn", "category", "module"};
-        List<ArticleDto> articleDtoList = articleService.findArticleListByCondition(model, cols, null, currentPage, pageSize);
+        List<TbUbArticleDto> articleDtoList = articleService.findArticleListByCondition(model, cols, null, currentPage, pageSize);
         int total = articleService.countArticleTotal(model);
 
         response.setDraw(draw);

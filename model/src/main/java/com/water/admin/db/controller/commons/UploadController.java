@@ -4,10 +4,11 @@ import com.water.admin.db.domain.dto.BaseResponse;
 import com.water.admin.db.domain.dto.DataResponse;
 import com.water.admin.utils.lang.FileTools;
 import com.water.image.client.ImageUploadClient;
-import com.water.uubook.model.Category;
-import com.water.uubook.model.dto.ArticleDto;
-import com.water.uubook.service.ArticleService;
-import com.water.uubook.service.CategoryService;
+import com.water.image.client.model.RequestResult;
+import com.water.uubook.model.TbUbCategory;
+import com.water.uubook.model.dto.TbUbArticleDto;
+import com.water.uubook.service.TbUbArticleService;
+import com.water.uubook.service.TbUbCategoryService;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.thrift.TException;
@@ -32,10 +33,10 @@ import java.util.UUID;
 @RequestMapping(value = "/upload")
 public class UploadController {
     @Resource
-    private ArticleService articleService;
+    private TbUbArticleService articleService;
 
     @Resource
-    private CategoryService categoryService;
+    private TbUbCategoryService categoryService;
 
     private static Log logger = LogFactory.getLog(UploadController.class);
 
@@ -82,14 +83,14 @@ public class UploadController {
     public DataResponse uploadArticlePicUrl(@RequestParam(value = "file", required = false) MultipartFile file,
                                             @PathVariable Integer articleId, HttpServletRequest request) throws IOException, TException {
         //定义返回的json格式
-        ArticleDto article = articleService.findArticleById(articleId);
+        TbUbArticleDto article = articleService.findArticleById(articleId);
         if (article == null) {
             return new DataResponse(BaseResponse.NOT_FOUND_RESOURCE, "id为" + articleId + "的文章不存在！");
         }
-        String picPath = ImageUploadClient.uploadImage(file.getBytes(), file.getOriginalFilename());
-        article.setPicUrl(picPath);
+        RequestResult picPath = ImageUploadClient.uploadImage(file.getBytes(), file.getOriginalFilename());
+        article.setPicUrl(picPath.getOriginal());
         articleService.updateArticle(article);
-        return new DataResponse(picPath);
+        return new DataResponse(picPath.getOriginal());
     }
 
     @RequestMapping(value = "/uploadCategoryPicUrl/{categoryId}", method = RequestMethod.POST, produces = "application/json")
@@ -99,7 +100,7 @@ public class UploadController {
                                                     HttpServletRequest request) {
         //定义返回的json格式
         Map<String, Object> jsonMap = new HashMap<String, Object>();
-        Category category = categoryService.findCategoryById(categoryId);
+        TbUbCategory category = categoryService.findCategoryById(categoryId);
         if (category == null) {
             logger.info("id为" + categoryId + "的文章不存在！");
             return null;

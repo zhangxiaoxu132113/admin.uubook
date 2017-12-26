@@ -1,9 +1,9 @@
 package com.water.admin.db.controller.module;
 
-import com.water.uubook.model.dto.ArticleDto;
-import com.water.uubook.model.dto.CategoryDto;
-import com.water.uubook.service.ArticleService;
-import com.water.uubook.service.CategoryService;
+import com.water.uubook.model.dto.TbUbArticleDto;
+import com.water.uubook.model.dto.TbUbCategoryDto;
+import com.water.uubook.service.TbUbArticleService;
+import com.water.uubook.service.TbUbCategoryService;
 import com.water.uubook.utils.Constants;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,15 +25,15 @@ import java.util.Map;
 public class BlogController {
 
     @Resource
-    private ArticleService articleService;
+    private TbUbArticleService articleService;
 
     @Resource
-    private CategoryService categoryService;
+    private TbUbCategoryService categoryService;
 
     @RequestMapping(value = "/home")
     public ModelAndView home() {
         ModelAndView mav = new ModelAndView();
-        List<CategoryDto> allCategories = categoryService.getAllParentCategories();
+        List<TbUbCategoryDto> allCategories = categoryService.getAllParentCategories();
         List<Map<String, Object>> allModule = this.getAllModule();
 
         mav.addObject("allModule", allModule);
@@ -45,8 +45,8 @@ public class BlogController {
     @RequestMapping(value = "/edit_view/{articleId}", method = RequestMethod.GET)
     public ModelAndView editView(@PathVariable Integer articleId) {
         ModelAndView mav = new ModelAndView();
-        ArticleDto articleDto = articleService.findArticleById(articleId);
-        List<CategoryDto> allCategories = categoryService.getAllParentCategories();
+        TbUbArticleDto articleDto = articleService.findArticleById(articleId);
+        List<TbUbCategoryDto> allCategories = categoryService.getAllParentCategories();
         List<Map<String, Object>> allModule = this.getAllModule();
 
         mav.addObject("article", articleDto);

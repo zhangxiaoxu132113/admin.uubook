@@ -1,8 +1,8 @@
 package com.water.admin.db.controller;
 
 import com.water.admin.db.domain.dto.TableDataResponse;
-import com.water.uubook.model.dto.CategoryDto;
-import com.water.uubook.service.CategoryService;
+import com.water.uubook.model.dto.TbUbCategoryDto;
+import com.water.uubook.service.TbUbCategoryService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -17,12 +17,12 @@ import java.util.List;
 @RequestMapping(value = "/category")
 public class CategoryController {
     @Resource
-    private CategoryService categoryService;
+    private TbUbCategoryService categoryService;
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView home() {
         ModelAndView mav = new ModelAndView();
-        List<CategoryDto> allCategories = categoryService.getAllParentCategories();
+        List<TbUbCategoryDto> allCategories = categoryService.getAllParentCategories();
 
         mav.addObject("allCategories", allCategories);
         mav.setViewName("/category/home");
@@ -31,12 +31,12 @@ public class CategoryController {
     }
 
     @RequestMapping(value = "/findCategoryByCondition", method = RequestMethod.POST)
-    public TableDataResponse findCategoryByCondition(CategoryDto model,
+    public TableDataResponse findCategoryByCondition(TbUbCategoryDto model,
                                                      @RequestParam(defaultValue = "1") int draw,
                                                      @RequestParam(defaultValue = "1") int currentPage,
                                                      @RequestParam(defaultValue = "10") int pageSize) {
         TableDataResponse response = new TableDataResponse();
-        List<CategoryDto> categoryDtoList = categoryService.getCategoryByCondition(model, null, currentPage, pageSize);
+        List<TbUbCategoryDto> categoryDtoList = categoryService.getCategoryByCondition(model, null, currentPage, pageSize);
         int total = categoryService.countCategoryTotal(model);
 
         response.setDraw(draw);
@@ -53,7 +53,7 @@ public class CategoryController {
     }
 
     @RequestMapping(value = "/stopOrStart")
-    public String stopOrStart(@RequestBody CategoryDto model) {
+    public String stopOrStart(@RequestBody TbUbCategoryDto model) {
         model.setCreateTime(new Date());
         categoryService.updateCategory(model);
         return "";
